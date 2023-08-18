@@ -1,0 +1,49 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+/* .footer .joinUsNow {
+    width: 408px;
+    height: 77px;
+} */
+.footer .joinUsNow h1 {
+    color: #000;
+    font: 600 56px Poppins;
+}
+.footer .joinUsNow p {
+    color: #95A7B8;
+    font: 400 18px Poppins;
+    margin-top: 41px;
+}
+
+.footer .joinUsNow .mediaImg {
+    background-image: url(../assets/social_media_icons.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 120px;
+    height: 30px;
+    margin: auto;
+    margin-top: 29px;
+}
+
+.footer .end {
+    background: var(--gray-light, #F4F5F6);
+    color: var(--gray-dark, #95A7B8);
+    font: 400 12px Poppins;
+   
+}
+.footer .end div{
+    display: flex;
+    justify-content: space-around;
+    width: 217px;
+    margin: auto;
+    text-align: center;
+    color: #202030;
+    font: 400 18px Poppins;
+    margin-top: 24px;
+
+}

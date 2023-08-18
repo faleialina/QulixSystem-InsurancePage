@@ -1,0 +1,39 @@
+.wrapperHeader {
+    max-width: 1220px;
+    margin: auto;
+    padding: 2%;
+}
+
+.header {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: #FFF; */
+
+}
+
+.header .logoImg {
+    background-image: url(../assets/Logo\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 141px;
+    height: 96px;
+}
+
+.header .nav {
+    display: flex;
+    gap: 90px;
+}
+
+.header .nav p {
+    color: #000;
+    font: 400 18px Poppins;
+}
+
+@media screen and (max-width: 990px) {
+
+    .item .nav:not(:first-child) {
+        display: none;
+    }
+}

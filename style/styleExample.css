@@ -1,0 +1,119 @@
+.wrapperExample {
+    width: 100%;
+}
+
+.example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1220px;
+    margin: auto;
+    padding: 5% 0;
+
+}
+
+.example h1 {
+    color: #000;
+    font: 600 50px Poppins;
+}
+
+.example .flexBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.example .flexBlock .block {
+    width: 650px;
+    padding: 16px 24px;
+    gap: 10px;
+    border-radius: 16px;
+    background: var(--blue, #94D8FF);
+    box-shadow: 0px 8px 16px 0px rgba(149, 167, 184, 0.20);
+    color: var(--text-primary, #202030);
+    text-align: center;
+    font: 400 18px Poppins;
+
+}
+
+.example .flexBlock .rect {
+    background-image: url(../assets/Rectangle\ 596.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 28px;
+    height: 30px;
+
+}
+
+
+.example .blockMin {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+}
+
+.example .flexBlock2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.example .flexBlock2 .block {
+    width: 550px;
+    height: 83px;
+    padding: 16px 24px;
+    gap: 10px;
+    border-radius: 16px;
+    background: var(--blue, #94D8FF);
+    box-shadow: 0px 8px 16px 0px rgba(149, 167, 184, 0.20);
+    color: var(--text-primary, #202030);
+    text-align: center;
+    font: 400 18px Poppins;
+}
+
+.example .flexBlock2 .block p {
+    color: #727272;
+    text-align: center;
+    font: 400 16px Poppins;
+}
+
+.example .flexBlock2 .rect {
+    background-image: url(../assets/Rectangle\ 596.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 28px;
+    height: 30px;
+
+}
+
+.example .flexBlock3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.example .flexBlock3 .block {
+    width: 550px;
+    height: 83px;
+    padding: 16px 24px;
+    gap: 10px;
+    border-radius: 16px;
+    background: var(--blue, #94D8FF);
+    box-shadow: 0px 8px 16px 0px rgba(149, 167, 184, 0.20);
+    color: var(--text-primary, #202030);
+    text-align: center;
+    font: 400 18px Poppins;
+}
+
+.example .flexBlock3 .rect {
+    background-image: url(../assets/Rectangle\ 596.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 28px;
+    height: 30px;
+
+}

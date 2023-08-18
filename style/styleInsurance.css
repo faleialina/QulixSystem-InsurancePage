@@ -1,0 +1,138 @@
+.wrapperInsurance {
+    width: 100%;
+}
+
+.insurance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1220px;
+    margin: auto;
+    padding: 5% 0;
+}
+
+.insurance .insuranceOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1071px;
+    height: 370px;
+    margin: auto;
+    text-align: center;
+}
+
+.insurance .insuranceOne h1 {
+    color: var(--mint-dark, #17BEBB);
+    font: 600 40px Poppins;
+}
+
+.insurance .insuranceOne .profit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.insurance .insuranceOne .profit .imgProfit {
+    background-image: url(../assets/Icon_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
+
+.insurance .insuranceOne .portfolios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.insurance .insuranceOne .portfolios .imgPortfolios {
+    background-image: url(../assets/Icon_1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
+
+
+.insurance .insuranceOne p {
+    color: #95A7B8;
+    font: 400 18px Poppins;
+}
+
+
+
+
+.insurance .insuranceTwo {
+    margin: auto;
+    text-align: center;
+}
+
+.insurance .insuranceTwo h1 {
+    color: var(--mint-dark, #17BEBB);
+    font: 600 40px Poppins;
+}
+
+.insurance .option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.insurance .option .img {
+    background-image: url(../assets/financial-insurance\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 375px;
+    height: 375px;
+
+}
+
+.insurance .option .infOne {
+    border-radius: 16px;
+    background: var(--blue, #94D8FF);
+    padding: 16px 24px 24px 24px;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 30px;
+}
+
+.insurance .option .infOne .img {
+    background-image: url(../assets/Frame\ 337-02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 56px;
+    height: 56px;
+   
+}
+
+.insurance .option .infOne p {
+    color: var(--text-primary, #202030);
+    font: 400 18px Poppins;
+}
+
+.insurance .option .infTwo {
+    border-radius: 16px;
+    background: var(--mint-gray, #9EEDE9);
+    padding: 16px 24px 24px 24px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.insurance .option .infTwo .img {
+    background-image: url(../assets/Frame\ 361.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 56px;
+    height: 56px;
+}
+
+.insurance .option .infTwo p {
+    color: var(--text-primary, #202030);
+    font: 400 18px Poppins;
+}
