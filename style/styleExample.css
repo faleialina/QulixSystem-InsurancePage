@@ -22,6 +22,7 @@
     flex-direction: column;
     align-items: center;
 
+
 }
 
 .example .flexBlock .block {
@@ -49,7 +50,7 @@
 
 .example .blockMin {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 1170px;
 }
 
@@ -115,5 +116,58 @@
     background-size: contain;
     width: 28px;
     height: 30px;
+
+}
+
+@media screen and (max-width: 1020px) {
+
+    .example {
+        padding: 5%;
+        margin: auto;
+    }
+
+    .example .flexBlock2 .block {
+        width: 472px;
+        height: 86px;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    .example {
+        padding: 5%;
+        margin: auto;
+    }
+
+    .example .flexBlock2 .block {
+        width: 360px;
+        height: 86px;
+
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .example {
+        padding: 5%;
+        margin: auto;
+    }
+
+    .example .flexBlock2 .block {
+        width: 215px;
+        height: 113px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .example {
+        padding: 5%;
+        margin: auto;
+    }
+
+    .example h1 {
+        font-size: 25px
+    }
 
 }

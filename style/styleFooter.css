@@ -1,19 +1,16 @@
 .footer {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    align-items: center;
     margin: 2% auto;
     text-align: center;
 }
 
-/* .footer .joinUsNow {
-    width: 408px;
-    height: 77px;
-} */
 .footer .joinUsNow h1 {
     color: #000;
     font: 600 56px Poppins;
 }
+
 .footer .joinUsNow p {
     color: #95A7B8;
     font: 400 18px Poppins;
@@ -34,9 +31,11 @@
     background: var(--gray-light, #F4F5F6);
     color: var(--gray-dark, #95A7B8);
     font: 400 12px Poppins;
-   
+    width: 100%;
+    max-width: 1220px;
 }
-.footer .end div{
+
+.footer .end div {
     display: flex;
     justify-content: space-around;
     width: 217px;

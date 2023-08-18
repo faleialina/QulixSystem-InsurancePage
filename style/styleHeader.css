@@ -9,8 +9,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background: #FFF; */
-
 }
 
 .header .logoImg {
@@ -33,7 +31,17 @@
 
 @media screen and (max-width: 990px) {
 
-    .item .nav:not(:first-child) {
+    .header .nav:not(:first-child) {
         display: none;
     }
+}
+
+@media screen and (max-width: 480px) {
+
+    .header .logoImg {
+
+        width: 58px;
+        height: 40px;
+    }
+
 }
