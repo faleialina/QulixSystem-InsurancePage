@@ -168,6 +168,17 @@
         padding: 5%;
         margin: auto;
     }
+
+    .insurance .option .infOne {
+        width: 185px;
+        height: 210px;
+        margin-right: 10px;
+    }
+
+    .insurance .option .infTwo {
+        width: 185px;
+        height: 210px;
+    }
 }
 
 @media screen and (max-width: 770px) {
@@ -176,14 +187,20 @@
         margin: auto;
     }
 
+    .insurance .option .img {
+
+        width: 200px;
+        height: 200px;
+    }
+
     .insurance .option .infOne {
-        width: 236px;
+        width: 200px;
         height: 187px;
-        margin-right: 0px;
+        margin-right: 10px;
     }
 
     .insurance .option .infTwo {
-        width: 236px;
+        width: 200px;
         height: 187px;
     }
 

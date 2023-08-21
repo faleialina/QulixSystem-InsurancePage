@@ -1,20 +1,21 @@
 .wrapperExample {
-    width: 100%;
+    background: url(../assets/Example.png);
+    margin: auto;
+    max-width: 100%;
+    background-size: cover;
+
 }
 
 .example {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 1220px;
+    width: 1220px;
     margin: auto;
-    padding: 5% 0;
-
+    max-width: 100%;
 }
 
 .example h1 {
     color: #000;
     font: 600 50px Poppins;
+    text-align: center;
 }
 
 .example .flexBlock {
@@ -44,14 +45,13 @@
     background-size: contain;
     width: 28px;
     height: 30px;
-
 }
 
 
 .example .blockMin {
     display: flex;
     justify-content: space-evenly;
-    width: 1170px;
+
 }
 
 .example .flexBlock2 {
@@ -131,6 +131,12 @@
         height: 86px;
     }
 
+    .example .flexBlock3 .block {
+        width: 472px;
+        height: 86px;
+    }
+
+
 }
 
 @media screen and (max-width: 990px) {
@@ -140,10 +146,17 @@
     }
 
     .example .flexBlock2 .block {
-        width: 360px;
+        width: 320px;
         height: 86px;
 
     }
+
+    .example .flexBlock3 .block {
+        width: 320px;
+        height: 86px;
+
+    }
+
 
 }
 
@@ -153,11 +166,31 @@
         margin: auto;
     }
 
-    .example .flexBlock2 .block {
-        width: 215px;
-        height: 113px;
+    .example .flexBlock .block {
+        width: 450px;
+        font: 400 16px Poppins;
 
     }
+
+
+    .example .flexBlock2 .block p {
+        font: 400 12px Poppins;
+    }
+
+
+    .example .flexBlock2 .block {
+        width: 200px;
+        height: 113px;
+        font: 400 14px Poppins;
+    }
+
+    .example .flexBlock3 .block {
+        width: 200px;
+        height: 113px;
+        font: 400 14px Poppins;
+    }
+
+
 }
 
 @media screen and (max-width: 320px) {

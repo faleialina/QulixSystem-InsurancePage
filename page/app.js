@@ -14,3 +14,18 @@ function onEntry(entry) {
   for (let elm of elements) {
     observer.observe(elm);
   }
+
+
+  const toggleBtn=document.querySelector('.toggle-btn')
+  let flag=true
+
+  toggleBtn.addEventListener('click',function(){
+    const side=document.getElementById('sidebar')
+    if(flag===true){
+      side.style='right: 20px'
+      flag=false
+    }else{
+      side.style='right: -260px;'
+      flag=true
+    }
+  })
